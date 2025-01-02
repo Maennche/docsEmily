@@ -44,6 +44,11 @@ const { header } = useAppConfig()
           v-bind="{ color: 'gray', variant: 'ghost', ...link }"
         />
       </template>
+      <template>
+        <UButton color="primary" variant="solid">Button</UButton>
+      </template>
+
+
     </template>
 
     <template #panel>
