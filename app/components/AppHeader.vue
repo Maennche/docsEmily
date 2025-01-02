@@ -41,7 +41,7 @@ const { header } = useAppConfig()
         <UButton
           v-for="(link, index) of header.links"
           :key="index"
-          v-bind="{ color: 'gray', variant: 'ghost', ...link }"
+          v-bind="{ color: 'gray', variant: 'solid', ...link }"
         />
       </template>
       <template>
