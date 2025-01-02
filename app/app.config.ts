@@ -1,35 +1,56 @@
 export default defineAppConfig({
   ui: {
-    primary: 'green',
+    primary: 'red',
     gray: 'slate',
+
     footer: {
       bottom: {
         left: 'text-sm text-gray-500 dark:text-gray-400',
         wrapper: 'border-t border-gray-200 dark:border-gray-800'
       }
+    },
+
+    icons: {
+      search: 'i-material-symbols-search-rounded',
+      dark: 'i-material-symbols-dark-mode-outline-rounded',
+      light: 'i-material-symbols-wb-sunny-outline-rounded',
+      external: 'i-material-symbols-link-rounded',
+      chevron: 'i-material-symbols-chevron-right-rounded',
+      hash: 'i-material-symbols-tag-rounded'
     }
   },
   seo: {
-    siteName: 'Nuxt UI Pro - Docs template'
+    siteName: 'Maennche Studio - AI First CRM'
   },
   header: {
     logo: {
-      alt: '',
-      light: '',
-      dark: ''
+      alt: 'Maennche Studio',
+      light: '/maennche-full-color_150.png',
+      dark: '/maennche_1-inverse_150.png'
     },
-    search: true,
+    search: '',
     colorMode: true,
     links: [{
-      'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/nuxt-ui-pro/docs',
-      'target': '_blank',
-      'aria-label': 'Docs template on GitHub'
+      label: 'Home',
+      to: 'https://maennche-docs-emily.nuxt.space',
+      'aria-label': 'Maennche Studio Home Page'
+    }, {
+      label: 'Pricing',
+      to: 'https://maennche-docs-emily.nuxt.space/pricing',
+      'aria-label': 'Maennche Studio Contact Page'
+    }, {
+      label: 'FAQ',
+      to: 'https://maennche-docs-emily.nuxt.space/faq',
+      'aria-label': 'Maennche Studio Contact Page'
+    }, {
+      label: 'Contact',
+      to: 'https://maennche-docs-emily.nuxt.space/contact',
+      'aria-label': 'Maennche Studio Contact Page'
     }]
   },
   footer: {
-    credits: 'Copyright © 2023',
-    colorMode: false,
+    credits: 'Copyright © 2025',
+    colorMode: true,
     links: [{
       'icon': 'i-simple-icons-nuxtdotjs',
       'to': 'https://nuxt.com',
